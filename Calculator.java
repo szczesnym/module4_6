@@ -10,6 +10,7 @@ public class Calculator {
     }
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        System.out.format("SUM %f", calculator.addNumbers(5, 4));
+        System.out.format("SUM %f\n", calculator.addNumbers(5, 4));
+        System.out.format("DIVISION %f\n", calculator.divideNumbers(5, 4));
     }
 }
